@@ -1,6 +1,6 @@
 /* CSS reset */
 
-* {
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,29 +8,97 @@
 }
 
 body {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height: 100vh;
-	display: flex;
-	background: url('assets/kep.jpg') no-repeat center center fixed;
+	height: 100vh;
+	 background: url('assets/background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
+
 .profile-card {
-  width: 30rem;
-  max-width: calc(100vw - 10px);
-	font-family: fantasy;
+	width: 480px;
+	max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .6);
+  border-radius:50px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+	font-family: 'Cormorant Garamond', serif;
+	
+}
+
+
+
+.head, .links {
+  text-align: center;
+}
 
 .head, .content {
   width: 90%;
   margin: 0 auto;
+	text-align: center;
 }
+
+img {
+  width: 25%;
+  height: 25%;
+  border-radius: 90%;
+	padding: 1px;
+  background-color: #666;
 	
-.head, .links, {
-  text-align: center;
-  letter-spacing: .188rem;
 }
 
+.name-headline {
+	margin-top: 3%;
+	margin-bottom: -5%;
+	text-align: center;
+	
+}
 
+.profile-image {
+  margin-top: 5%;
+}
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+	border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.about {
+	text-align: center;
+	}
+
+img:hover {
+  transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+	
+}
+
+.fa {
+	color: cyan;
+}
+
+.fa-map-marker {
+	color: orangered;
+}
+
+.links {
+	 padding: 5%;
+	border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+h1 {
+	font-size: 1.5rem;
+}
