@@ -1,4 +1,4 @@
- /* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+ /* --- A SIMPLE CSS RESET FROM ERIC MEYER --- */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -44,11 +44,9 @@ table {
 	border-spacing: 0;
 }
 
-
 *{
 	box-sizing: border-box;
 }
-
 
 body {
   display: flex;
@@ -60,14 +58,12 @@ body {
 	font-family: 'BenchNine', sans-serif;
 }
 
-
 .profile-card {
 	width: 480px;
 	max-width: calc(100vw - 10px);
   background-color: hsla(0, 0%, 100%, .6);
   border-radius:50px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-	
 }
 
 h1,
@@ -86,7 +82,6 @@ h2 {
 	font-size: 1.062rem;
 }
 
-
 img {
   width: 22%;
   height: 22%;
@@ -95,10 +90,7 @@ img {
   background-color: #666;
 	float: left;
 	margin-left: 2%;
-	
-	
 }
-
 
 .name-headline {
 	margin-top: 5%;
@@ -129,12 +121,11 @@ li {
 
 .about {
 	text-align: center;
-	}
+}
 
 img:hover {
   transform: scale(2.1);
 	transition: all 0.3s ease-in-out;
-	
 }
 
 .fa {
